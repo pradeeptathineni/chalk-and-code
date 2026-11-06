@@ -1,0 +1,15 @@
+{
+  "name": "chalk-and-code",
+  "private": true,
+  "description": "Lessons from years of tutoring and teaching, explained on the board and then brought to life in code.",
+  "author": "Pradeep Tathineni",
+  "type": "module",
+  "scripts": {
+    "setup": "npm --prefix site ci",
+    "check": "node tools/build-indexes.mjs --check",
+    "indexes": "node tools/build-indexes.mjs",
+    "build": "node tools/build-indexes.mjs && cd site && npx quartz build -d ../content -o ../public",
+    "serve": "node tools/build-indexes.mjs && cd site && npx quartz build -d ../content -o ../public --serve"
+  },
+  "engines": { "node": ">=22" }
+}

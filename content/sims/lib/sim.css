@@ -1,0 +1,84 @@
+/* Chalk & Code sim styles: a chalkboard canvas with a simple control panel. */
+:root {
+  --board: #1f2f28;
+  --board-line: #2f463c;
+  --chalk: #f4f1e8;
+  --chalk-dim: #aab8b0;
+  --chalk-yellow: #f2d46b;
+  --chalk-pink: #f29fb5;
+  --chalk-blue: #8fc9f2;
+  --chalk-green: #9fe0a8;
+  --panel: #fbfaf6;
+  --ink: #1f2a24;
+  --accent: #2f6f5e;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--board);
+  color: var(--chalk);
+  font-family: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif;
+}
+
+.sim {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.sim h1 {
+  font-family: "Patrick Hand", "Comic Neue", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.sim .hint { color: var(--chalk-dim); margin: 0; font-size: 0.95rem; }
+
+.sim .stage { width: 100%; line-height: 0; }
+.sim .stage canvas { width: 100% !important; height: auto !important; border-radius: 8px; }
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 8px 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--board-line);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.control { display: flex; flex-direction: column; gap: 2px; font-size: 0.95rem; }
+.control .row { display: flex; justify-content: space-between; }
+.control output { color: var(--chalk-yellow); font-variant-numeric: tabular-nums; }
+.control input[type="range"] { width: 100%; accent-color: var(--chalk-yellow); }
+
+.check { display: flex; align-items: center; gap: 6px; font-size: 0.95rem; }
+
+.buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.buttons button {
+  font: inherit;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--chalk-dim);
+  background: transparent;
+  color: var(--chalk);
+  cursor: pointer;
+}
+.buttons button.primary { background: var(--chalk-yellow); color: var(--ink); border-color: var(--chalk-yellow); }
+.buttons button:focus-visible, input:focus-visible { outline: 2px solid var(--chalk-blue); outline-offset: 2px; }
+
+.readouts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.95rem;
+}
+.readouts span b { color: var(--chalk-yellow); font-weight: 600; }

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chalk-and-code/lesson.schema.json",
+  "title": "Lesson front matter",
+  "description": "Front matter for one lesson. The first six keys and sources are shared with the Neon1 practice-card schema; track, unit, prerequisites and sims are specific to lessons.",
+  "type": "object",
+  "required": ["id", "title", "summary", "level", "tags", "track", "unit", "prerequisites", "sims", "sources"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+(\\.[a-z0-9-]+)+$", "description": "track.unit.short-name" },
+    "title": { "type": "string", "minLength": 3 },
+    "summary": { "type": "string", "minLength": 10 },
+    "level": { "type": "integer", "minimum": 0, "maximum": 4, "description": "0 At rest, 1 Nudge, 2 Rolling, 3 Accelerating, 4 Orbit" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "track": { "type": "string" },
+    "unit": { "type": "string" },
+    "prerequisites": { "type": "array", "items": { "type": "string" }, "description": "ids of lessons to know first" },
+    "sims": { "type": "array", "items": { "type": "string" }, "description": "folder names under content/sims" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "url", "license", "use"],
+        "properties": {
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "license": { "type": "string", "description": "SPDX id where one exists, e.g. CC-BY-4.0, MIT, public-domain" },
+          "use": { "enum": ["copy", "adapt", "reference"] }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "nodes": [
+    {
+      "id": "track.physics",
+      "type": "track",
+      "label": "physics"
+    },
+    {
+      "id": "unit.physics.motion",
+      "type": "unit",
+      "label": "motion"
+    },
+    {
+      "id": "physics.motion.where-is-it",
+      "type": "lesson",
+      "label": "Where is it? Position, distance and displacement",
+      "level": 1,
+      "levelName": "Nudge",
+      "track": "physics",
+      "unit": "motion",
+      "summary": "Describe where something is and how far it moved, and tell distance and displacement apart.",
+      "href": "tracks/physics/01-motion/01-where-is-it"
+    },
+    {
+      "id": "sim.motion-graphs",
+      "type": "sim",
+      "label": "motion-graphs",
+      "href": "sims/motion-graphs/index.html"
+    },
+    {
+      "id": "physics.motion.how-fast",
+      "type": "lesson",
+      "label": "How fast? Speed, velocity and the slope of a position graph",
+      "level": 1,
+      "levelName": "Nudge",
+      "track": "physics",
+      "unit": "motion",
+      "summary": "Find velocity as the rate of change of position and read it as the slope of an x–t graph.",
+      "href": "tracks/physics/01-motion/02-how-fast"
+    },
+    {
+      "id": "physics.motion.speeding-up",
+      "type": "lesson",
+      "label": "Speeding up: acceleration and the constant-acceleration equations",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "physics",
+      "unit": "motion",
+      "summary": "Treat acceleration as the rate of change of velocity, read it from graphs, and use the four kinematic equations.",
+      "href": "tracks/physics/01-motion/03-speeding-up"
+    },
+    {
+      "id": "physics.motion.projectile-motion",
+      "type": "lesson",
+      "label": "Projectile motion: two motions at once",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "physics",
+      "unit": "motion",
+      "summary": "Split a launch into independent horizontal and vertical motions and solve for time, range and height.",
+      "href": "tracks/physics/01-motion/04-projectile-motion"
+    },
+    {
+      "id": "sim.projectile-motion",
+      "type": "sim",
+      "label": "projectile-motion",
+      "href": "sims/projectile-motion/index.html"
+    },
+    {
+      "id": "physics.motion.relative-velocity",
+      "type": "lesson",
+      "label": "Relative velocity: crossing a river",
+      "level": 3,
+      "levelName": "Accelerating",
+      "track": "physics",
+      "unit": "motion",
+      "summary": "Add velocities as vectors and solve boat, plane and walkway problems.",
+      "href": "tracks/physics/01-motion/05-relative-velocity"
+    },
+    {
+      "id": "sim.river-crossing",
+      "type": "sim",
+      "label": "river-crossing",
+      "href": "sims/river-crossing/index.html"
+    }
+  ],
+  "edges": [
+    {
+      "source": "unit.physics.motion",
+      "target": "track.physics",
+      "type": "part-of"
+    },
+    {
+      "source": "physics.motion.where-is-it",
+      "target": "unit.physics.motion",
+      "type": "part-of"
+    },
+    {
+      "source": "physics.motion.where-is-it",
+      "target": "sim.motion-graphs",
+      "type": "uses-sim"
+    },
+    {
+      "source": "physics.motion.how-fast",
+      "target": "unit.physics.motion",
+      "type": "part-of"
+    },
+    {
+      "source": "physics.motion.where-is-it",
+      "target": "physics.motion.how-fast",
+      "type": "prerequisite"
+    },
+    {
+      "source": "physics.motion.how-fast",
+      "target": "sim.motion-graphs",
+      "type": "uses-sim"
+    },
+    {
+      "source": "physics.motion.speeding-up",
+      "target": "unit.physics.motion",
+      "type": "part-of"
+    },
+    {
+      "source": "physics.motion.how-fast",
+      "target": "physics.motion.speeding-up",
+      "type": "prerequisite"
+    },
+    {
+      "source": "physics.motion.speeding-up",
+      "target": "sim.motion-graphs",
+      "type": "uses-sim"
+    },
+    {
+      "source": "physics.motion.projectile-motion",
+      "target": "unit.physics.motion",
+      "type": "part-of"
+    },
+    {
+      "source": "physics.motion.speeding-up",
+      "target": "physics.motion.projectile-motion",
+      "type": "prerequisite"
+    },
+    {
+      "source": "physics.motion.projectile-motion",
+      "target": "sim.projectile-motion",
+      "type": "uses-sim"
+    },
+    {
+      "source": "physics.motion.relative-velocity",
+      "target": "unit.physics.motion",
+      "type": "part-of"
+    },
+    {
+      "source": "physics.motion.projectile-motion",
+      "target": "physics.motion.relative-velocity",
+      "type": "prerequisite"
+    },
+    {
+      "source": "physics.motion.relative-velocity",
+      "target": "sim.river-crossing",
+      "type": "uses-sim"
+    }
+  ]
+}

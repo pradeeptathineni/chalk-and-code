@@ -1,0 +1,10 @@
+Copyright (c) 2026 Pradeep Tathineni. All rights reserved.
+
+The lessons, simulations, diagrams and code in this repository are the work of
+Pradeep Tathineni. No permission is granted to copy, modify or distribute them
+without written permission.
+
+Third-party components are included under their own licences:
+  - site/                       Quartz 4.5.2, MIT licence (site/LICENSE.txt)
+  - content/sims/lib/p5.min.js  p5.js 1.11.1, LGPL-2.1 (content/sims/lib/p5.LICENSE.txt)
+See content/credits.md for every source used.

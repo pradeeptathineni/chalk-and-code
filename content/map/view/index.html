@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Topic map</title>
+    <style>
+      :root {
+        --board: #1f2f28;
+        --line: #33463d;
+        --chalk: #f4f1e8;
+        --dim: #aab8b0;
+        --yellow: #f2d46b;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; background: var(--board); color: var(--chalk); font-family: "Source Sans 3", "Source Sans Pro", system-ui, sans-serif; }
+      .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 12px; }
+      .bar .label { color: var(--dim); margin-right: 4px; font-size: 0.9rem; }
+      .chip { font: inherit; font-size: 0.9rem; border-radius: 999px; padding: 4px 12px; border: 1px solid var(--dim); background: transparent; color: var(--chalk); cursor: pointer; }
+      .chip[aria-pressed="true"] { background: var(--yellow); border-color: var(--yellow); color: #1f2a24; }
+      .wrap { overflow-x: auto; padding: 0 12px 12px; }
+      svg { display: block; }
+      .node { cursor: pointer; }
+      .node rect { stroke-width: 2; }
+      .node:hover rect, .node:focus rect { stroke: var(--yellow); }
+      .node:focus { outline: none; }
+      .node text { fill: var(--chalk); font-size: 13px; pointer-events: none; }
+      .node .lvl { fill: var(--dim); font-size: 11px; }
+      .edge { stroke: var(--dim); stroke-width: 1.5; fill: none; opacity: 0.8; }
+      .dimmed { opacity: 0.15; }
+      .col-title { fill: var(--dim); font-size: 12px; }
+      #detail { padding: 0 12px 14px; color: var(--dim); min-height: 2.6em; font-size: 0.95rem; }
+      #detail b { color: var(--chalk); }
+    </style>
+  </head>
+  <body>
+    <div class="bar" id="tracks"><span class="label">Track</span></div>
+    <div class="bar" id="levels"><span class="label">Level</span></div>
+    <div id="detail">Lessons flow left to right: each one builds on the lessons pointing into it. Click a lesson to open it.</div>
+    <div class="wrap"><svg id="map" role="img" aria-label="Map of lessons and their prerequisites"></svg></div>
+
+    <script>
+      const TRACK_COLORS = {
+        physics: "#8fc9f2",
+        math: "#9fe0a8",
+        "computer-science": "#f2b25c",
+        security: "#f29fb5",
+        "study-skills": "#c9b3f2",
+      }
+      const LEVEL_NAMES = ["At rest", "Nudge", "Rolling", "Accelerating", "Orbit"]
+      const CARD_W = 230
+      const CARD_H = 64
+      const COL_GAP = 70
+      const ROW_GAP = 22
+      const SVG_NS = "http://www.w3.org/2000/svg"
+
+      const el = (name, attrs = {}, parent) => {
+        const n = document.createElementNS(SVG_NS, name)
+        for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v)
+        if (parent) parent.append(n)
+        return n
+      }
+
+      // Wrap a title onto at most two lines of roughly `max` characters.
+      function wrap(text, max = 30) {
+        const words = text.split(" ")
+        const lines = [""]
+        for (const w of words) {
+          const cur = lines[lines.length - 1]
+          if ((cur + " " + w).trim().length > max && cur) {
+            if (lines.length === 2) {
+              lines[1] = lines[1].replace(/\s*\S*$/, "") + "…"
+              break
+            }
+            lines.push(w)
+          } else lines[lines.length - 1] = (cur + " " + w).trim()
+        }
+        return lines
+      }
+
+      async function main() {
+        const graph = await fetch("../graph.json").then((r) => r.json())
+        const lessons = graph.nodes.filter((n) => n.type === "lesson")
+        const prereq = graph.edges.filter((e) => e.type === "prerequisite")
+        const byId = new Map(lessons.map((l) => [l.id, l]))
+
+        // Depth = length of the longest prerequisite chain leading to a lesson.
+        const depth = new Map()
+        const into = (id) => prereq.filter((e) => e.target === id).map((e) => e.source)
+        const depthOf = (id, stack = new Set()) => {
+          if (depth.has(id)) return depth.get(id)
+          if (stack.has(id)) return 0
+          stack.add(id)
+          const d = Math.max(-1, ...into(id).map((s) => depthOf(s, stack))) + 1
+          depth.set(id, d)
+          return d
+        }
+        lessons.forEach((l) => depthOf(l.id))
+
+        const cols = []
+        for (const l of lessons) (cols[depth.get(l.id)] ??= []).push(l)
+        cols.forEach((c) => c.sort((a, b) => (a.track + a.id).localeCompare(b.track + b.id)))
+
+        const pos = new Map()
+        cols.forEach((col, ci) =>
+          col.forEach((l, ri) => pos.set(l.id, { x: 10 + ci * (CARD_W + COL_GAP), y: 30 + ri * (CARD_H + ROW_GAP) })),
+        )
+        const width = 20 + cols.length * (CARD_W + COL_GAP)
+        const height = 50 + Math.max(...cols.map((c) => c.length)) * (CARD_H + ROW_GAP)
+
+        const svg = document.getElementById("map")
+        svg.setAttribute("width", width)
+        svg.setAttribute("height", height)
+        svg.setAttribute("viewBox", `0 0 ${width} ${height}`)
+        const defs = el("defs", {}, svg)
+        const marker = el("marker", { id: "arrow", viewBox: "0 0 10 10", refX: 9, refY: 5, markerWidth: 7, markerHeight: 7, orient: "auto" }, defs)
+        el("path", { d: "M0,0 L10,5 L0,10 z", fill: "#aab8b0" }, marker)
+
+        cols.forEach((_, ci) => {
+          const t = el("text", { x: 10 + ci * (CARD_W + COL_GAP), y: 16, class: "col-title" }, svg)
+          t.textContent = ci === 0 ? "Start here" : `Step ${ci + 1}`
+        })
+
+        const edgeEls = prereq.map((e) => {
+          const a = pos.get(e.source)
+          const b = pos.get(e.target)
+          const x1 = a.x + CARD_W
+          const y1 = a.y + CARD_H / 2
+          const x2 = b.x - 2
+          const y2 = b.y + CARD_H / 2
+          const mx = (x1 + x2) / 2
+          const path = el("path", { d: `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`, class: "edge", "marker-end": "url(#arrow)" }, svg)
+          return { e, path }
+        })
+
+        const detail = document.getElementById("detail")
+        const nodeEls = lessons.map((l) => {
+          const { x, y } = pos.get(l.id)
+          const g = el("g", { class: "node", transform: `translate(${x},${y})`, tabindex: 0, role: "link", "aria-label": l.label }, svg)
+          const color = TRACK_COLORS[l.track] || "#f4f1e8"
+          el("rect", { width: CARD_W, height: CARD_H, rx: 10, fill: "#26392f", stroke: color }, g)
+          el("rect", { width: 6, height: CARD_H, rx: 3, fill: color }, g)
+          wrap(l.label).forEach((line, i) => {
+            const t = el("text", { x: 16, y: 22 + i * 17 }, g)
+            t.textContent = line
+          })
+          const lv = el("text", { x: 16, y: CARD_H - 8, class: "lvl" }, g)
+          lv.textContent = `${l.track} · level ${l.level} ${LEVEL_NAMES[l.level]}`
+          const open = () => window.open("../../" + l.href, "_top")
+          g.addEventListener("click", open)
+          g.addEventListener("keydown", (ev) => (ev.key === "Enter" || ev.key === " ") && open())
+          const show = () => {
+            detail.replaceChildren()
+            const b = document.createElement("b")
+            b.textContent = l.label
+            detail.append(b, document.createTextNode(` — ${l.summary}`))
+          }
+          g.addEventListener("mouseenter", show)
+          g.addEventListener("focus", show)
+          return { l, g }
+        })
+
+        // Filters.
+        const state = { track: "all", level: "all" }
+        const apply = () => {
+          const visible = (l) => (state.track === "all" || l.track === state.track) && (state.level === "all" || l.level === state.level)
+          nodeEls.forEach(({ l, g }) => g.classList.toggle("dimmed", !visible(l)))
+          edgeEls.forEach(({ e, path }) => path.classList.toggle("dimmed", !(visible(byId.get(e.source)) && visible(byId.get(e.target)))))
+        }
+        const chips = (barId, key, values, label) => {
+          const bar = document.getElementById(barId)
+          const buttons = []
+          for (const v of ["all", ...values]) {
+            const b = document.createElement("button")
+            b.className = "chip"
+            b.type = "button"
+            b.textContent = v === "all" ? "All" : label(v)
+            b.setAttribute("aria-pressed", v === "all")
+            b.addEventListener("click", () => {
+              state[key] = v
+              buttons.forEach((x) => x.setAttribute("aria-pressed", x === b))
+              apply()
+            })
+            bar.append(b)
+            buttons.push(b)
+          }
+        }
+        chips("tracks", "track", [...new Set(lessons.map((l) => l.track))].sort(), (v) => v.replace("-", " "))
+        chips("levels", "level", [...new Set(lessons.map((l) => l.level))].sort(), (v) => `${v} ${LEVEL_NAMES[v]}`)
+      }
+
+      main().catch((err) => {
+        document.getElementById("detail").textContent = "The map could not load its data. Build it with: node tools/build-indexes.mjs"
+        console.error(err)
+      })
+    </script>
+  </body>
+</html>
