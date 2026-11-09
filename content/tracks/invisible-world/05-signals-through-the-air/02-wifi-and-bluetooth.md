@@ -19,7 +19,7 @@ sources:
 
 ## Start here
 
-Right now, if you're near a router, your room is full of invisible light flashing on and off billions of times a second, carrying videos, messages and games straight through the walls. Why can't you see it? And why does it get worse two rooms away?
+Right now, if you're near a router, your room is full of invisible light flashing on and off billions of times a second. It's carrying videos, messages and games straight through the walls. Why can't you see it? And why does it get worse two rooms away?
 
 ## The common wrong idea
 

@@ -30,7 +30,7 @@ Infrared is **light**, just with waves a bit too long for our eyes. It gets mixe
 
 ## The idea
 
-In 1800 the astronomer William Herschel split sunlight into a rainbow with a prism and put thermometers on each colour. Then he put one just *past* the red end, where there was no colour at all. That one warmed up the most. There was light there that nobody could see: **infrared**, meaning "below red".
+In 1800 the astronomer William Herschel split sunlight into a rainbow with a prism (a wedge of clear glass) and put thermometers on each colour. Then he put one just *past* the red end, where there was no colour at all. That one warmed up the most. There was light there that nobody could see: **infrared**, meaning "below red".
 
 Infrared shows up in three ways you'll meet every day:
 

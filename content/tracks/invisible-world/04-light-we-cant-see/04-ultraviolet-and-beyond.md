@@ -27,7 +27,7 @@ You can sit by a sunny window all afternoon and not get sunburned. Sit outside i
 
 "All radiation is dangerous."
 
-"Radiation" just means energy spreading out from somewhere. The light from a lamp is radiation. So is the warmth from a campfire, and the radio signal in your car. What matters is **how much energy each packet of light carries**, and that depends on the wavelength. Only the short waves on the right of the spectrum, ultraviolet and beyond, carry enough to damage cells.
+"Radiation" just means energy spreading out from somewhere. The light from a lamp is radiation. So is the warmth from a campfire, and the radio signal in your car. What matters is **how much energy each photon, each little packet of light, carries**, and that depends on the wavelength. Only the short waves on the right of the spectrum, ultraviolet and beyond, carry enough to damage cells.
 
 ## The idea
 

@@ -30,7 +30,7 @@ The rainbow is a **tiny** slice. Open the sim and find the coloured stripe on th
 
 ## The idea
 
-Put every kind of light in a line, from the longest waves to the shortest, and you get the **electromagnetic spectrum**:
+Put every kind of light in a line, from the longest waves to the shortest, and you get the **electromagnetic spectrum**. (A *spectrum* is a whole range of something, laid out in order. *Electromagnetic* is the scientists' word for "made of electricity and magnetism", which is what light is.)
 
 | Kind of light | Wave size, roughly | Where you meet it |
 |---|---|---|
@@ -44,7 +44,7 @@ Put every kind of light in a line, from the longest waves to the shortest, and y
 
 A sentence to remember the order: **R**eal **M**onkeys **I**n **V**ests **U**se **X**-ray **G**oggles.
 
-As the waves get shorter, each little packet of light carries **more energy**. Radio, microwaves, infrared and visible light don't have enough energy to damage the inside of our cells. Ultraviolet has enough to cause sunburn. X-rays and gamma rays have enough to go right through us and damage cells, which is why doctors use them carefully.
+Light doesn't flow out smoothly like water from a tap. It comes in tiny bundles of energy called **photons**. Think of each one as a little packet. As the waves get shorter, each packet carries **more energy**. Radio, microwaves, infrared and visible light don't have enough energy to damage the inside of our cells. Ultraviolet has enough to cause sunburn. X-rays and gamma rays have enough to go right through us and damage cells, which is why doctors use them carefully.
 
 ## Play with it
 
@@ -92,7 +92,7 @@ Ultraviolet. Its waves are shorter, and shorter waves carry more energy.
 
 <details><summary>Answer</summary>
 
-Both are light, and "radiation" just means energy spreading out. But wifi waves are about the size of your hand and each packet of wifi light carries very little energy, even less than a packet of light from a lamp. X-ray waves are about the size of an atom and carry enough energy to damage cells. Same family, very different energy.
+Both are light, and "radiation" just means energy spreading out. But wifi waves are about the size of your hand. Each wifi photon carries very little energy, even less than a photon from a lamp. X-ray waves are about the size of an atom and carry enough energy to damage cells. Same family, very different energy.
 
 </details>
 

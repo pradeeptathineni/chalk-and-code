@@ -38,7 +38,7 @@ Waves **pass straight through** each other. While they overlap they **add up**, 
 
 **Noise-cancelling headphones** use this trick. A tiny microphone listens to the noise around you, and the speaker plays the exact same sound wave **upside down**. Crest meets trough, and the noise cancels before it reaches your ear.
 
-**Bending (refraction).** When a wave goes from one material into another where it travels at a different speed, it can change direction. That's why a straw in a glass of water looks bent: light travels more slowly in water than in air, so it changes direction as it leaves the water on its way to your eye.
+**Bending (refraction).** When a wave goes from one material into another where it travels at a different speed, it can change direction. That's why a straw in a glass of water looks bent. Light travels more slowly in water than in air, so it changes direction as it leaves the water on its way to your eye.
 
 ## Play with it
 

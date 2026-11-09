@@ -37,7 +37,7 @@ There's no such thing as a pull from "suction". When you sip on a straw, you **l
 
 **Suction cups.** Pressing a cup flat squeezes most of the air out from under it. When the rubber springs back a little, the space under it gets bigger and the pressure drops. Now the outside air pushes the cup against the wall much harder than the little air left inside pushes it away.
 
-**Syringes and your lungs.** Pull the plunger and the space inside gets bigger, the pressure drops, and outside air (or medicine) is pushed in. Your lungs work the same way: a muscle under them called the diaphragm pulls down, your chest gets bigger, the pressure inside drops, and the outside air pushes in. That's every breath you take.
+**Syringes and your lungs.** Pull the plunger and the space inside gets bigger, the pressure drops, and outside air (or medicine) is pushed in. Your lungs work the same way. A muscle under them called the **diaphragm** (say DIE-uh-fram) pulls down, your chest gets bigger, the pressure inside drops, and the outside air pushes in. That's every breath you take.
 
 ## Play with it
 

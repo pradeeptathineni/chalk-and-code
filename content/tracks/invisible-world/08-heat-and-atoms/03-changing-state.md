@@ -41,7 +41,7 @@ Particles **jiggle** (more when hotter) and **stick** to their neighbours (a lit
 
 **Why sweating cools you.** Even below boiling, the very fastest particles at the surface of a liquid can escape: that's **evaporation**. Since the fastest (hottest) ones leave, the ones left behind are slower on average, so the liquid gets cooler. When sweat evaporates off your skin, it carries heat away with it.
 
-**Why ice floats.** Water is unusual. As it freezes, its molecules lock into an open, hexagonal pattern with lots of empty space, so ice takes up about **9% more room** than the water it came from. Bigger but the same weight means lighter for its size, so it floats. That's why lakes freeze from the top down, keeping fish alive underneath, and why a full water bottle left in the freezer can burst.
+**Why ice floats.** Water is unusual. As it freezes, its molecules lock into an open, six-sided pattern with lots of empty space (the same six sides you see in every snowflake), so ice takes up about **9% more room** than the water it came from. Bigger but the same weight means lighter for its size, so it floats. That's why lakes freeze from the top down, keeping fish alive underneath, and why a full water bottle left in the freezer can burst.
 
 ## Play with it
 

@@ -30,7 +30,7 @@ The satellites have no idea where you are. They just keep announcing, over and o
 
 ## The idea
 
-About 30 GPS satellites circle the Earth, roughly **20,000 km up**. Each carries an **atomic clock** so accurate it would take thousands of years to drift by a single second.
+About 30 GPS satellites circle the Earth, roughly **20,000 km up**. Each carries an **atomic clock**, a clock that keeps time by counting the steady vibrations of atoms. It is so accurate it would take thousands of years to drift by a single second.
 
 1. Each satellite sends a radio signal saying when it was sent.
 2. Your phone notes when the signal arrives. The signal travels at the speed of light, so the delay tells your phone the distance: **distance = speed of light × time taken**. A delay of 0.067 seconds means about 20,000 km.
@@ -38,7 +38,7 @@ About 30 GPS satellites circle the Earth, roughly **20,000 km up**. Each carries
 4. Add satellite B: now you're where the two circles cross, which is one of **two** places.
 5. Add satellite C: only **one** place is on all three circles. That's you.
 
-(Real GPS works in three dimensions, so the circles are really spheres, and it uses a **fourth** satellite to correct your phone's clock, which is nowhere near as good as an atomic clock.)
+(Real GPS works in three dimensions, so the circles are really spheres. It also uses a **fourth** satellite to correct your phone's clock, which is nowhere near as good as an atomic clock.)
 
 Here's the "wait, really?" part: light travels 300 km in a single millisecond. If your phone's timing were off by just **one thousandth of a second**, your position would be off by 300 km. GPS works because it measures time to within a few **billionths** of a second.
 

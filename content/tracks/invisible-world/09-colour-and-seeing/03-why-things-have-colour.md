@@ -34,7 +34,7 @@ An apple doesn't *have* red the way it has a stalk. It **reflects** red light an
 - A **coloured** thing reflects its own colour and soaks up the rest.
 - So what colour something *looks* depends on two things: what light shines on it, and what it reflects.
 
-**Why is the sky blue?** Sunlight is white, a mix of all colours. On its way through the air, it bumps into air molecules, and these scatter **blue** light (short waves) all over the sky much more than red light (long waves). Look anywhere in the sky and you see that scattered blue.
+**Why is the sky blue?** Sunlight is white, a mix of all colours. On its way through the air, it bumps into air molecules (the tiny particles air is made of), and these scatter **blue** light (short waves) all over the sky much more than red light (long waves). Look anywhere in the sky and you see that scattered blue.
 
 **Why are sunsets red and orange?** At sunset, sunlight travels through much more air to reach you. By the time it arrives, most of the blue has been scattered away sideways, leaving the reds and oranges.
 
