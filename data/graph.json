@@ -375,6 +375,50 @@
       "href": "tracks/invisible-world/08-heat-and-atoms/03-changing-state"
     },
     {
+      "id": "unit.invisible-world.colour-and-seeing",
+      "type": "unit",
+      "label": "colour-and-seeing"
+    },
+    {
+      "id": "invisible-world.colour-and-seeing.how-we-see",
+      "type": "lesson",
+      "label": "How we see: light, eyes and three colour sensors",
+      "level": 1,
+      "levelName": "Nudge",
+      "track": "invisible-world",
+      "unit": "colour-and-seeing",
+      "summary": "Follow light from a lamp to an object to your eye, and discover that you see millions of colours with just three kinds of sensor.",
+      "href": "tracks/invisible-world/09-colour-and-seeing/01-how-we-see"
+    },
+    {
+      "id": "sim.colour-mixing",
+      "type": "sim",
+      "label": "colour-mixing",
+      "href": "sims/colour-mixing/index.html"
+    },
+    {
+      "id": "invisible-world.colour-and-seeing.mixing-colours",
+      "type": "lesson",
+      "label": "Mixing light and mixing paint: why screens and printers use different colours",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "colour-and-seeing",
+      "summary": "Discover why mixing lights makes white but mixing paints makes nearly black, and how every screen builds its pictures from red, green and blue dots.",
+      "href": "tracks/invisible-world/09-colour-and-seeing/02-mixing-colours"
+    },
+    {
+      "id": "invisible-world.colour-and-seeing.why-things-have-colour",
+      "type": "lesson",
+      "label": "Why things have colour: red apples, blue skies and orange sunsets",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "colour-and-seeing",
+      "summary": "Discover that colour isn't inside objects but in the light they reflect, and why the sky is blue and sunsets are red.",
+      "href": "tracks/invisible-world/09-colour-and-seeing/03-why-things-have-colour"
+    },
+    {
       "id": "track.physics",
       "type": "track",
       "label": "physics"
@@ -857,6 +901,51 @@
     {
       "source": "invisible-world.heat-and-atoms.changing-state",
       "target": "sim.states-of-matter",
+      "type": "uses-sim"
+    },
+    {
+      "source": "unit.invisible-world.colour-and-seeing",
+      "target": "track.invisible-world",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.colour-and-seeing.how-we-see",
+      "target": "unit.invisible-world.colour-and-seeing",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.colour-and-seeing.how-we-see",
+      "target": "sim.colour-mixing",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.colour-and-seeing.mixing-colours",
+      "target": "unit.invisible-world.colour-and-seeing",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.colour-and-seeing.how-we-see",
+      "target": "invisible-world.colour-and-seeing.mixing-colours",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.colour-and-seeing.mixing-colours",
+      "target": "sim.colour-mixing",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.colour-and-seeing.why-things-have-colour",
+      "target": "unit.invisible-world.colour-and-seeing",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.colour-and-seeing.mixing-colours",
+      "target": "invisible-world.colour-and-seeing.why-things-have-colour",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.colour-and-seeing.why-things-have-colour",
+      "target": "sim.colour-mixing",
       "type": "uses-sim"
     },
     {

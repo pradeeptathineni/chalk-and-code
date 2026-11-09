@@ -29,7 +29,7 @@ Everything, your desk, the air, your hand, is made of **particles** far too smal
 
 ## The idea
 
-**How small?** A single water molecule is about a *ten-millionth* of a millimetre across. Line up ten million of them and you'd have a row about as long as one grain of sugar is wide.
+**How small?** Line up water molecules side by side and you'd need about **three and a half million** of them to make a row one millimetre long, a little more than the thickness of a credit card.
 
 **How many?** There are more water molecules in one glass of water than there are glasses of water in all the oceans on Earth.
 

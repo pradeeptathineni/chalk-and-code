@@ -19,6 +19,7 @@ Each sim is a single page with a p5.js sketch. Open one directly, or meet it ins
 | [Who can hear it?](./hearing-range/index.html) | pitch, hearing ranges, infrasound and ultrasound, with sound | [Sound you can't hear](../tracks/invisible-world/06-sound-you-cant-hear/index.md) |
 | [Air pressure](./air-pressure/index.html) | air as moving particles; pressure from amount, space and temperature | [Air and pressure](../tracks/invisible-world/07-air-and-pressure/index.md) |
 | [Solid, liquid, gas](./states-of-matter/index.html) | particles that jiggle and stick; melting, boiling, evaporation | [Heat and atoms](../tracks/invisible-world/08-heat-and-atoms/index.md) |
+| [Mixing colours](./colour-mixing/index.html) | adding light, subtracting with paint, coloured light on objects | [Colour and seeing](../tracks/invisible-world/09-colour-and-seeing/index.md) |
 
 ## How a sim is put together
 
