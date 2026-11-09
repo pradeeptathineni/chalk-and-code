@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>A message on a wave</title>
+    <link rel="stylesheet" href="../lib/sim.css" />
+  </head>
+  <body>
+    <main class="sim">
+      <h1>A message on a wave</h1>
+      <p class="hint">Type a short message. Each letter becomes eight 1s and 0s, and the 1s and 0s change a wave: switching it on and off, making it bigger and smaller (AM), or making it wiggle faster and slower (FM). Add noise and see which way gets the message through.</p>
+      <div class="stage" id="stage"></div>
+      <div class="readouts" id="readouts"></div>
+      <div class="controls" id="controls"><label class="control"><span class="row"><span>Your message (up to 8 letters)</span></span><input id="msg" type="text" maxlength="8" value="HI WIFI" style="font-size:1.1rem;padding:4px 6px;border-radius:6px;border:1px solid #2f463c;background:#fbfaf6;color:#1f2a24" /></label></div>
+      <div class="buttons" id="buttons"></div>
+    </main>
+    <script src="../lib/p5.min.js"></script>
+    <script src="../lib/sim-kit.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>

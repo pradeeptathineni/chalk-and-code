@@ -14,6 +14,8 @@ Each sim is a single page with a p5.js sketch. Open one directly, or meet it ins
 | [Field lines](./field-lines/index.html) | magnetic and electric fields, attraction and repulsion | [Pushes without touching](../tracks/invisible-world/01-pushes-without-touching/index.md) |
 | [Electromagnets and generators](./electromagnet/index.html) | current makes magnetism; moving magnets make current | [Magnets and electricity](../tracks/invisible-world/02-magnets-and-electricity/index.md) |
 | [Wave machine](./wave-machine/index.html) | transverse and longitudinal waves, wavelength, frequency, speed, superposition | [Waves](../tracks/invisible-world/03-waves/index.md) |
+| [A message on a wave](./signal-on-a-wave/index.html) | carrying bits on a wave: on-off, AM, FM, and noise | [Signals through the air](../tracks/invisible-world/05-signals-through-the-air/index.md) |
+| [GPS](./gps/index.html) | finding a position from signal timing | [GPS](../tracks/invisible-world/05-signals-through-the-air/03-gps.md) |
 
 ## How a sim is put together
 

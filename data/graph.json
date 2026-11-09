@@ -193,6 +193,56 @@
       "href": "tracks/invisible-world/04-light-we-cant-see/04-ultraviolet-and-beyond"
     },
     {
+      "id": "unit.invisible-world.signals-through-the-air",
+      "type": "unit",
+      "label": "signals-through-the-air"
+    },
+    {
+      "id": "invisible-world.signals-through-the-air.a-message-on-a-wave",
+      "type": "lesson",
+      "label": "A message on a wave: on-off, AM and FM",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "signals-through-the-air",
+      "summary": "Find out how a radio wave, which is just a steady wiggle, can carry a song, a voice or a text message.",
+      "href": "tracks/invisible-world/05-signals-through-the-air/01-a-message-on-a-wave"
+    },
+    {
+      "id": "sim.signal-on-a-wave",
+      "type": "sim",
+      "label": "signal-on-a-wave",
+      "href": "sims/signal-on-a-wave/index.html"
+    },
+    {
+      "id": "invisible-world.signals-through-the-air.wifi-and-bluetooth",
+      "type": "lesson",
+      "label": "Wifi and Bluetooth: invisible light all through your house",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "signals-through-the-air",
+      "summary": "Find out what wifi really is, why walls and microwave ovens get in its way, and why Bluetooth only reaches across a room.",
+      "href": "tracks/invisible-world/05-signals-through-the-air/02-wifi-and-bluetooth"
+    },
+    {
+      "id": "invisible-world.signals-through-the-air.gps",
+      "type": "lesson",
+      "label": "GPS: finding yourself with clocks in space",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "signals-through-the-air",
+      "summary": "See how your phone works out exactly where you are by timing signals from satellites 20,000 km up.",
+      "href": "tracks/invisible-world/05-signals-through-the-air/03-gps"
+    },
+    {
+      "id": "sim.gps",
+      "type": "sim",
+      "label": "gps",
+      "href": "sims/gps/index.html"
+    },
+    {
       "id": "track.physics",
       "type": "track",
       "label": "physics"
@@ -475,6 +525,66 @@
     {
       "source": "invisible-world.light-we-cant-see.ultraviolet-and-beyond",
       "target": "sim.light-spectrum",
+      "type": "uses-sim"
+    },
+    {
+      "source": "unit.invisible-world.signals-through-the-air",
+      "target": "track.invisible-world",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.signals-through-the-air.a-message-on-a-wave",
+      "target": "unit.invisible-world.signals-through-the-air",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.waves.measuring-waves",
+      "target": "invisible-world.signals-through-the-air.a-message-on-a-wave",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.light-we-cant-see.the-spectrum",
+      "target": "invisible-world.signals-through-the-air.a-message-on-a-wave",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.signals-through-the-air.a-message-on-a-wave",
+      "target": "sim.signal-on-a-wave",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.signals-through-the-air.wifi-and-bluetooth",
+      "target": "unit.invisible-world.signals-through-the-air",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.signals-through-the-air.a-message-on-a-wave",
+      "target": "invisible-world.signals-through-the-air.wifi-and-bluetooth",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.signals-through-the-air.wifi-and-bluetooth",
+      "target": "sim.signal-on-a-wave",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.signals-through-the-air.wifi-and-bluetooth",
+      "target": "sim.light-spectrum",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.signals-through-the-air.gps",
+      "target": "unit.invisible-world.signals-through-the-air",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.signals-through-the-air.a-message-on-a-wave",
+      "target": "invisible-world.signals-through-the-air.gps",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.signals-through-the-air.gps",
+      "target": "sim.gps",
       "type": "uses-sim"
     },
     {
