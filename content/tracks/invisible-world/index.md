@@ -17,6 +17,6 @@ Some of my favourite sessions are about things nobody can see. A magnet pushes w
 | 7 | [Air and pressure](./07-air-and-pressure/index.md) | the air pushing on everything; straws, suction cups, weather and ears popping | 3–8 | Ready |
 | 8 | [Heat and atoms](./08-heat-and-atoms/index.md) | everything is made of jiggling particles; hot and cold, melting and boiling | 4–8 | Ready |
 | 9 | [Colour and seeing](./09-colour-and-seeing/index.md) | why things have colour, mixing light vs mixing paint, how cameras and screens work | 4–8 | Ready |
-| 10 | Radioactivity | unstable atoms, half-life with coins and dice, how it's used and how we stay safe | 7–8 | Planned |
+| 10 | [Radioactivity](./10-radioactivity/index.md) | unstable atoms, half-life with coins and dice, how it's used and how we stay safe | 7–8 | Ready |
 
 **Try this at home:** point a TV remote at your phone's camera and press a button. You may see a flicker of light that your eyes alone can't see. That's infrared, and lesson 3 of [The light we can't see](./04-light-we-cant-see/03-infrared.md) explains it.

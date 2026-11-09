@@ -419,6 +419,50 @@
       "href": "tracks/invisible-world/09-colour-and-seeing/03-why-things-have-colour"
     },
     {
+      "id": "unit.invisible-world.radioactivity",
+      "type": "unit",
+      "label": "radioactivity"
+    },
+    {
+      "id": "invisible-world.radioactivity.unstable-atoms",
+      "type": "lesson",
+      "label": "Unstable atoms: the accidental discovery of radioactivity",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "radioactivity",
+      "summary": "Look inside the atom, meet the nuclei that fall apart, and hear how radioactivity was discovered in a drawer.",
+      "href": "tracks/invisible-world/10-radioactivity/01-unstable-atoms"
+    },
+    {
+      "id": "sim.half-life",
+      "type": "sim",
+      "label": "half-life",
+      "href": "sims/half-life/index.html"
+    },
+    {
+      "id": "invisible-world.radioactivity.half-life",
+      "type": "lesson",
+      "label": "Half-life: random atoms, predictable crowds",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "radioactivity",
+      "summary": "Discover that you can't predict when one atom will decay, yet a crowd of them halves like clockwork, and how that lets us date ancient bones.",
+      "href": "tracks/invisible-world/10-radioactivity/02-half-life"
+    },
+    {
+      "id": "invisible-world.radioactivity.living-with-radiation",
+      "type": "lesson",
+      "label": "Living with radiation: bananas, smoke alarms and staying safe",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "radioactivity",
+      "summary": "Find the radiation that's naturally all around us, see how people put radioactivity to work, and learn the three rules for staying safe.",
+      "href": "tracks/invisible-world/10-radioactivity/03-living-with-radiation"
+    },
+    {
       "id": "track.physics",
       "type": "track",
       "label": "physics"
@@ -946,6 +990,61 @@
     {
       "source": "invisible-world.colour-and-seeing.why-things-have-colour",
       "target": "sim.colour-mixing",
+      "type": "uses-sim"
+    },
+    {
+      "source": "unit.invisible-world.radioactivity",
+      "target": "track.invisible-world",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.radioactivity.unstable-atoms",
+      "target": "unit.invisible-world.radioactivity",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.heat-and-atoms.jiggling-particles",
+      "target": "invisible-world.radioactivity.unstable-atoms",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.light-we-cant-see.ultraviolet-and-beyond",
+      "target": "invisible-world.radioactivity.unstable-atoms",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.radioactivity.unstable-atoms",
+      "target": "sim.half-life",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.radioactivity.half-life",
+      "target": "unit.invisible-world.radioactivity",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.radioactivity.unstable-atoms",
+      "target": "invisible-world.radioactivity.half-life",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.radioactivity.half-life",
+      "target": "sim.half-life",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.radioactivity.living-with-radiation",
+      "target": "unit.invisible-world.radioactivity",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.radioactivity.half-life",
+      "target": "invisible-world.radioactivity.living-with-radiation",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.radioactivity.living-with-radiation",
+      "target": "sim.half-life",
       "type": "uses-sim"
     },
     {

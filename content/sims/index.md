@@ -20,6 +20,7 @@ Each sim is a single page with a p5.js sketch. Open one directly, or meet it ins
 | [Air pressure](./air-pressure/index.html) | air as moving particles; pressure from amount, space and temperature | [Air and pressure](../tracks/invisible-world/07-air-and-pressure/index.md) |
 | [Solid, liquid, gas](./states-of-matter/index.html) | particles that jiggle and stick; melting, boiling, evaporation | [Heat and atoms](../tracks/invisible-world/08-heat-and-atoms/index.md) |
 | [Mixing colours](./colour-mixing/index.html) | adding light, subtracting with paint, coloured light on objects | [Colour and seeing](../tracks/invisible-world/09-colour-and-seeing/index.md) |
+| [Half-life](./half-life/index.html) | random decay of single atoms, predictable halving of many | [Radioactivity](../tracks/invisible-world/10-radioactivity/index.md) |
 
 ## How a sim is put together
 
