@@ -60,4 +60,13 @@ npm run serve   # builds and serves at http://localhost:8080
 
 ## Licence
 
-Copyright © Pradeep Tathineni. All rights reserved. Third-party components keep their own licences; see [content/credits.md](content/credits.md).
+Teach with it, adapt it, share it.
+
+| What | Licence |
+|---|---|
+| Lessons, text, diagrams and images | [CC BY-SA 4.0](LICENSE) |
+| Code: simulations (`content/sims/`), the topic map (`content/map/view/`), `tools/`, `data/schema/` | [MIT](LICENSE-CODE) |
+| The Chalk & Code name | Not licensed; see [TRADEMARK.md](TRADEMARK.md) |
+| Third-party parts (Quartz in `site/`, p5.js, KaTeX, cited sources) | Their own licences; see [content/credits.md](content/credits.md) |
+
+If you reuse a lesson, credit it as "Based on Chalk & Code by Pradeep Tathineni" with a link, and share your version under CC BY-SA 4.0.

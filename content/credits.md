@@ -5,6 +5,14 @@ summary: "Everything this site builds on, with its licence and how it is used."
 
 The lessons, simulations, diagrams and code here are original work by Pradeep Tathineni unless listed below. Each lesson also lists its own sources in its front matter.
 
+## Reusing Chalk & Code
+
+You're welcome to teach with, adapt and share this material:
+
+- **Lessons, text, diagrams and images:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Credit "Based on Chalk & Code by Pradeep Tathineni" with a link, and share adaptations under the same licence.
+- **Code** (the simulations, topic map and tools): MIT.
+- **The Chalk & Code name** isn't licensed: give adapted versions their own name.
+
 **How sources are used**
 
 - **copy** — included as-is, with credit, under its licence

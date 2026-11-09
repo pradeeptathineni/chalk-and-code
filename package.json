@@ -11,5 +11,8 @@
     "build": "node tools/build-indexes.mjs && cd site && npx quartz build -d ../content -o ../public",
     "serve": "node tools/build-indexes.mjs && cd site && npx quartz build -d ../content -o ../public --serve"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "(CC-BY-SA-4.0 AND MIT)"
 }
