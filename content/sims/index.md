@@ -13,6 +13,7 @@ Each sim is a single page with a p5.js sketch. Open one directly, or meet it ins
 | [The light spectrum](./light-spectrum/index.html) | every kind of light from radio to gamma rays: wavelength, frequency, uses and safety | [The light we can't see](../tracks/invisible-world/04-light-we-cant-see/index.md), all four lessons |
 | [Field lines](./field-lines/index.html) | magnetic and electric fields, attraction and repulsion | [Pushes without touching](../tracks/invisible-world/01-pushes-without-touching/index.md) |
 | [Electromagnets and generators](./electromagnet/index.html) | current makes magnetism; moving magnets make current | [Magnets and electricity](../tracks/invisible-world/02-magnets-and-electricity/index.md) |
+| [Wave machine](./wave-machine/index.html) | transverse and longitudinal waves, wavelength, frequency, speed, superposition | [Waves](../tracks/invisible-world/03-waves/index.md) |
 
 ## How a sim is put together
 

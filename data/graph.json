@@ -94,6 +94,50 @@
       "href": "tracks/invisible-world/02-magnets-and-electricity/03-motors-and-generators"
     },
     {
+      "id": "unit.invisible-world.waves",
+      "type": "unit",
+      "label": "waves"
+    },
+    {
+      "id": "invisible-world.waves.what-is-a-wave",
+      "type": "lesson",
+      "label": "What is a wave? Energy on the move",
+      "level": 1,
+      "levelName": "Nudge",
+      "track": "invisible-world",
+      "unit": "waves",
+      "summary": "See that a wave carries energy from place to place while the stuff it travels through stays put, and meet the two kinds of wave.",
+      "href": "tracks/invisible-world/03-waves/01-what-is-a-wave"
+    },
+    {
+      "id": "sim.wave-machine",
+      "type": "sim",
+      "label": "wave-machine",
+      "href": "sims/wave-machine/index.html"
+    },
+    {
+      "id": "invisible-world.waves.measuring-waves",
+      "type": "lesson",
+      "label": "Measuring waves: amplitude, wavelength, frequency and speed",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "waves",
+      "summary": "Measure a wave four ways, and use speed = wavelength × frequency to find the one you're missing.",
+      "href": "tracks/invisible-world/03-waves/02-measuring-waves"
+    },
+    {
+      "id": "invisible-world.waves.waves-meet-and-bounce",
+      "type": "lesson",
+      "label": "Waves meet and bounce: echoes, adding up and cancelling out",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "waves",
+      "summary": "See what happens when waves hit a wall or run into each other: reflection, and waves that add up or cancel out.",
+      "href": "tracks/invisible-world/03-waves/03-waves-meet-and-bounce"
+    },
+    {
       "id": "unit.invisible-world.light-we-cant-see",
       "type": "unit",
       "label": "light-we-cant-see"
@@ -326,6 +370,51 @@
     {
       "source": "invisible-world.magnets-and-electricity.motors-and-generators",
       "target": "sim.electromagnet",
+      "type": "uses-sim"
+    },
+    {
+      "source": "unit.invisible-world.waves",
+      "target": "track.invisible-world",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.waves.what-is-a-wave",
+      "target": "unit.invisible-world.waves",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.waves.what-is-a-wave",
+      "target": "sim.wave-machine",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.waves.measuring-waves",
+      "target": "unit.invisible-world.waves",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.waves.what-is-a-wave",
+      "target": "invisible-world.waves.measuring-waves",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.waves.measuring-waves",
+      "target": "sim.wave-machine",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.waves.waves-meet-and-bounce",
+      "target": "unit.invisible-world.waves",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.waves.measuring-waves",
+      "target": "invisible-world.waves.waves-meet-and-bounce",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.waves.waves-meet-and-bounce",
+      "target": "sim.wave-machine",
       "type": "uses-sim"
     },
     {
