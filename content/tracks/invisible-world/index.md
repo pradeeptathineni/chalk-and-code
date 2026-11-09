@@ -8,8 +8,8 @@ Some of my favourite sessions are about things nobody can see. A magnet pushes w
 
 | # | Unit | What it covers | Grades | Status |
 |---|---|---|---|---|
-| 1 | Pushes without touching | gravity, magnetism and static electricity; what a "field" means | 3–8 | Planned |
-| 2 | Magnets and electricity are the same thing | a wire makes a magnet, a magnet makes a current; electromagnets, motors and speakers | 5–8 | Planned |
+| 1 | [Pushes without touching](./01-pushes-without-touching/index.md) | gravity, magnetism and static electricity; what a "field" means | 3–8 | Ready |
+| 2 | [Magnets and electricity are the same thing](./02-magnets-and-electricity/index.md) | a wire makes a magnet, a magnet makes a current; electromagnets, motors and speakers | 5–8 | Ready |
 | 3 | Waves | what waves are: wavelength, frequency, speed; water, sound and light | 4–8 | Planned |
 | 4 | [The light we can't see](./04-light-we-cant-see/index.md) | the electromagnetic spectrum from radio to gamma rays; infrared and ultraviolet | 4–8 | Ready |
 | 5 | Signals through the air | how a message rides on a wave: radio, wifi, Bluetooth, GPS; why walls and microwaves matter | 6–8 | Planned |

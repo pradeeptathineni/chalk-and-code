@@ -11,6 +11,8 @@ Each sim is a single page with a p5.js sketch. Open one directly, or meet it ins
 | [Projectile motion](./projectile-motion/index.html) | independent horizontal and vertical motion, range, air drag | [Projectile motion](../tracks/physics/01-motion/04-projectile-motion.md) |
 | [River crossing](./river-crossing/index.html) | relative velocity as vector addition | [Relative velocity](../tracks/physics/01-motion/05-relative-velocity.md) |
 | [The light spectrum](./light-spectrum/index.html) | every kind of light from radio to gamma rays: wavelength, frequency, uses and safety | [The light we can't see](../tracks/invisible-world/04-light-we-cant-see/index.md), all four lessons |
+| [Field lines](./field-lines/index.html) | magnetic and electric fields, attraction and repulsion | [Pushes without touching](../tracks/invisible-world/01-pushes-without-touching/index.md) |
+| [Electromagnets and generators](./electromagnet/index.html) | current makes magnetism; moving magnets make current | [Magnets and electricity](../tracks/invisible-world/02-magnets-and-electricity/index.md) |
 
 ## How a sim is put together
 

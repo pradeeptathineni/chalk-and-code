@@ -6,6 +6,94 @@
       "label": "invisible-world"
     },
     {
+      "id": "unit.invisible-world.pushes-without-touching",
+      "type": "unit",
+      "label": "pushes-without-touching"
+    },
+    {
+      "id": "invisible-world.pushes-without-touching.forces-at-a-distance",
+      "type": "lesson",
+      "label": "Forces at a distance: gravity, magnetism and static",
+      "level": 1,
+      "levelName": "Nudge",
+      "track": "invisible-world",
+      "unit": "pushes-without-touching",
+      "summary": "Meet the three pushes and pulls that work without touching, and the idea of a field.",
+      "href": "tracks/invisible-world/01-pushes-without-touching/01-forces-at-a-distance"
+    },
+    {
+      "id": "sim.field-lines",
+      "type": "sim",
+      "label": "field-lines",
+      "href": "sims/field-lines/index.html"
+    },
+    {
+      "id": "invisible-world.pushes-without-touching.magnets",
+      "type": "lesson",
+      "label": "Magnets and their fields: poles, compasses and the Earth",
+      "level": 1,
+      "levelName": "Nudge",
+      "track": "invisible-world",
+      "unit": "pushes-without-touching",
+      "summary": "Find out why like poles push and unlike poles pull, what field lines show, and why a compass points north.",
+      "href": "tracks/invisible-world/01-pushes-without-touching/02-magnets"
+    },
+    {
+      "id": "invisible-world.pushes-without-touching.static-electricity",
+      "type": "lesson",
+      "label": "Static electricity: balloons, sparks and lightning",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "pushes-without-touching",
+      "summary": "See why rubbing a balloon makes it stick, what charge is, and how a spark and a lightning bolt are the same thing.",
+      "href": "tracks/invisible-world/01-pushes-without-touching/03-static-electricity"
+    },
+    {
+      "id": "unit.invisible-world.magnets-and-electricity",
+      "type": "unit",
+      "label": "magnets-and-electricity"
+    },
+    {
+      "id": "invisible-world.magnets-and-electricity.a-wire-makes-a-magnet",
+      "type": "lesson",
+      "label": "A wire makes a magnet: the compass that twitched",
+      "level": 1,
+      "levelName": "Nudge",
+      "track": "invisible-world",
+      "unit": "magnets-and-electricity",
+      "summary": "Discover that electric current makes a magnetic field, the way it was first discovered in 1820.",
+      "href": "tracks/invisible-world/02-magnets-and-electricity/01-a-wire-makes-a-magnet"
+    },
+    {
+      "id": "sim.electromagnet",
+      "type": "sim",
+      "label": "electromagnet",
+      "href": "sims/electromagnet/index.html"
+    },
+    {
+      "id": "invisible-world.magnets-and-electricity.electromagnets",
+      "type": "lesson",
+      "label": "Electromagnets: magnets you can switch on and off",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "magnets-and-electricity",
+      "summary": "Make a stronger electromagnet with more turns, more current and an iron core, and find them in doorbells, cranes and speakers.",
+      "href": "tracks/invisible-world/02-magnets-and-electricity/02-electromagnets"
+    },
+    {
+      "id": "invisible-world.magnets-and-electricity.motors-and-generators",
+      "type": "lesson",
+      "label": "Motors, speakers and generators: magnets that move, and moves that make electricity",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "magnets-and-electricity",
+      "summary": "See how electromagnets make motors spin and speakers sing, and how moving a magnet makes electricity in a generator.",
+      "href": "tracks/invisible-world/02-magnets-and-electricity/03-motors-and-generators"
+    },
+    {
       "id": "unit.invisible-world.light-we-cant-see",
       "type": "unit",
       "label": "light-we-cant-see"
@@ -145,6 +233,101 @@
     }
   ],
   "edges": [
+    {
+      "source": "unit.invisible-world.pushes-without-touching",
+      "target": "track.invisible-world",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.pushes-without-touching.forces-at-a-distance",
+      "target": "unit.invisible-world.pushes-without-touching",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.pushes-without-touching.forces-at-a-distance",
+      "target": "sim.field-lines",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.pushes-without-touching.magnets",
+      "target": "unit.invisible-world.pushes-without-touching",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.pushes-without-touching.forces-at-a-distance",
+      "target": "invisible-world.pushes-without-touching.magnets",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.pushes-without-touching.magnets",
+      "target": "sim.field-lines",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.pushes-without-touching.static-electricity",
+      "target": "unit.invisible-world.pushes-without-touching",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.pushes-without-touching.forces-at-a-distance",
+      "target": "invisible-world.pushes-without-touching.static-electricity",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.pushes-without-touching.static-electricity",
+      "target": "sim.field-lines",
+      "type": "uses-sim"
+    },
+    {
+      "source": "unit.invisible-world.magnets-and-electricity",
+      "target": "track.invisible-world",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.magnets-and-electricity.a-wire-makes-a-magnet",
+      "target": "unit.invisible-world.magnets-and-electricity",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.pushes-without-touching.magnets",
+      "target": "invisible-world.magnets-and-electricity.a-wire-makes-a-magnet",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.magnets-and-electricity.a-wire-makes-a-magnet",
+      "target": "sim.electromagnet",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.magnets-and-electricity.electromagnets",
+      "target": "unit.invisible-world.magnets-and-electricity",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.magnets-and-electricity.a-wire-makes-a-magnet",
+      "target": "invisible-world.magnets-and-electricity.electromagnets",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.magnets-and-electricity.electromagnets",
+      "target": "sim.electromagnet",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.magnets-and-electricity.motors-and-generators",
+      "target": "unit.invisible-world.magnets-and-electricity",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.magnets-and-electricity.electromagnets",
+      "target": "invisible-world.magnets-and-electricity.motors-and-generators",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.magnets-and-electricity.motors-and-generators",
+      "target": "sim.electromagnet",
+      "type": "uses-sim"
+    },
     {
       "source": "unit.invisible-world.light-we-cant-see",
       "target": "track.invisible-world",
