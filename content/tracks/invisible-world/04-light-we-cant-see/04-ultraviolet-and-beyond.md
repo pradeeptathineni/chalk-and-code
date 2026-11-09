@@ -1,12 +1,12 @@
 ---
-id: invisible-forces.light-we-cant-see.ultraviolet-and-beyond
+id: invisible-world.light-we-cant-see.ultraviolet-and-beyond
 title: "Ultraviolet and beyond: sunburn, glowing posters and X-rays"
 summary: "Meet the light past violet: what ultraviolet, X-rays and gamma rays do, and how we stay safe."
 level: 2
 tags: [light, ultraviolet, x-rays, safety]
-track: invisible-forces
+track: invisible-world
 unit: light-we-cant-see
-prerequisites: [invisible-forces.light-we-cant-see.the-spectrum]
+prerequisites: [invisible-world.light-we-cant-see.the-spectrum]
 sims: [light-spectrum]
 sources:
   - { title: "NASA Science, Ultraviolet Waves", url: "https://science.nasa.gov/ems/10_ultravioletwaves/", license: "public domain (US government work)", use: reference }
@@ -102,5 +102,5 @@ The apron has lead in it, which stops X-rays. It protects the rest of your body,
 
 ## Where this goes next
 
-- Radio and wifi, coming in Unit 6 of [Invisible forces](../index.md): how a message rides on a wave.
+- Signals through the air, coming in Unit 5 of [The invisible world](../index.md): how radio and wifi carry a message on a wave.
 - [Light is a wave](./01-light-is-a-wave.md), if you want to revisit wavelength and frequency.

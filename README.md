@@ -12,7 +12,7 @@ chalk-and-code/
 │   ├── index.md              home page
 │   ├── map/                  clickable map of lessons and prerequisites
 │   ├── tracks/               math, coding, robots, logic and circuits, physics,
-│   │                         invisible forces, electricity, security, study skills
+│   │                         invisible world, electricity, security, study skills
 │   │   └── physics/01-motion/   five lessons, each with a simulation
 │   ├── sims/                 p5.js simulations, each runnable on its own
 │   ├── for-tutors/           how a session runs

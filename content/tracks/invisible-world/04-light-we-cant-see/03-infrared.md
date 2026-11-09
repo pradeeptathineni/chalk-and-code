@@ -1,12 +1,12 @@
 ---
-id: invisible-forces.light-we-cant-see.infrared
+id: invisible-world.light-we-cant-see.infrared
 title: "Infrared all around you: remotes, warm bodies and robot eyes"
 summary: "Find the infrared light that's already everywhere, and see how remotes and robot sensors use it."
 level: 2
 tags: [light, infrared, sensors, robots]
-track: invisible-forces
+track: invisible-world
 unit: light-we-cant-see
-prerequisites: [invisible-forces.light-we-cant-see.the-spectrum]
+prerequisites: [invisible-world.light-we-cant-see.the-spectrum]
 sims: [light-spectrum]
 sources:
   - { title: "NASA Science, Infrared Waves", url: "https://science.nasa.gov/ems/07_infraredwaves/", license: "public domain (US government work)", use: reference }

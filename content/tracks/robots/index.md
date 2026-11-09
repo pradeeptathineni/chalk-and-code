@@ -17,4 +17,4 @@ For middle schoolers, nothing beats code that makes something roll across the fl
 
 **No robot? No problem.** Each unit will come with an on-screen robot that runs the same programs, so the ideas work at home too.
 
-The sensors connect straight to [Invisible forces](../invisible-forces/index.md): the obstacle sensor works by shining infrared light you can't see and checking whether it bounces back.
+The sensors connect straight to [The invisible world](../invisible-world/index.md): the obstacle sensor works by shining infrared light you can't see and checking whether it bounces back.

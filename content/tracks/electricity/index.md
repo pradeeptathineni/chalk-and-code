@@ -16,4 +16,4 @@ Electricity is easy to use and hard to picture. In this track we picture it firs
 | 6 | The transistor | a switch with no moving parts; using a small current to control a big one | 7–8 | Planned |
 | 7 | From switches to computers | how transistors become logic gates, and gates become a computer | 7–8 | Planned |
 
-Unit 7 hands over to [Logic and circuits](../logic-and-circuits/index.md). Unit 2 of [Invisible forces](../invisible-forces/index.md) shows the other side of electricity: magnetism.
+Unit 7 hands over to [Logic and circuits](../logic-and-circuits/index.md). Unit 2 of [The invisible world](../invisible-world/index.md) shows the other side of electricity: magnetism.

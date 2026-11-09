@@ -1,10 +1,10 @@
 ---
-id: invisible-forces.light-we-cant-see.light-is-a-wave
+id: invisible-world.light-we-cant-see.light-is-a-wave
 title: "Light is a wave: wavelength, frequency and one speed for all"
 summary: "See light as a wave, and find out why shorter waves always come more often."
 level: 1
 tags: [light, waves, electromagnetism]
-track: invisible-forces
+track: invisible-world
 unit: light-we-cant-see
 prerequisites: []
 sims: [light-spectrum]

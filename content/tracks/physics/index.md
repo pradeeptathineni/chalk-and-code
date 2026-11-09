@@ -6,7 +6,7 @@ tags: [physics]
 
 I teach physics to grade school and middle school students with p5.js: we write a small program together, change one number, and **watch** what happens. That is usually the moment an idea makes sense. An equation tells you what happens; a simulation shows you.
 
-Electricity, magnetism, light and radio have their own tracks: [Invisible forces](../invisible-forces/index.md) and [Electricity and electronics](../electricity/index.md).
+Electricity, magnetism, light and radio have their own tracks: [The invisible world](../invisible-world/index.md) and [Electricity and electronics](../electricity/index.md).
 
 ## Units
 

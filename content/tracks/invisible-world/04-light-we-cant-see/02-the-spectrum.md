@@ -1,12 +1,12 @@
 ---
-id: invisible-forces.light-we-cant-see.the-spectrum
+id: invisible-world.light-we-cant-see.the-spectrum
 title: "The electromagnetic spectrum: from radio to gamma rays"
 summary: "Put every kind of light in order, and see how small a slice our eyes can see."
 level: 1
 tags: [light, electromagnetic-spectrum]
-track: invisible-forces
+track: invisible-world
 unit: light-we-cant-see
-prerequisites: [invisible-forces.light-we-cant-see.light-is-a-wave]
+prerequisites: [invisible-world.light-we-cant-see.light-is-a-wave]
 sims: [light-spectrum]
 sources:
   - { title: "OpenStax College Physics 2e, 24.3 The Electromagnetic Spectrum", url: "https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum", license: "CC-BY-4.0", use: reference }
