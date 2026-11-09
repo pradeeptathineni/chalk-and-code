@@ -331,6 +331,50 @@
       "href": "tracks/invisible-world/07-air-and-pressure/03-pressure-and-weather"
     },
     {
+      "id": "unit.invisible-world.heat-and-atoms",
+      "type": "unit",
+      "label": "heat-and-atoms"
+    },
+    {
+      "id": "invisible-world.heat-and-atoms.jiggling-particles",
+      "type": "lesson",
+      "label": "Everything is jiggling: the tiny particles that make up the world",
+      "level": 1,
+      "levelName": "Nudge",
+      "track": "invisible-world",
+      "unit": "heat-and-atoms",
+      "summary": "Discover that everything is made of particles far too small to see, and that they never stop moving.",
+      "href": "tracks/invisible-world/08-heat-and-atoms/01-jiggling-particles"
+    },
+    {
+      "id": "sim.states-of-matter",
+      "type": "sim",
+      "label": "states-of-matter",
+      "href": "sims/states-of-matter/index.html"
+    },
+    {
+      "id": "invisible-world.heat-and-atoms.temperature-and-heat",
+      "type": "lesson",
+      "label": "Hot and cold: what temperature really is, and how heat moves",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "heat-and-atoms",
+      "summary": "Find out that temperature is how fast particles jiggle, and that heat moves in three ways: touching, flowing and glowing.",
+      "href": "tracks/invisible-world/08-heat-and-atoms/02-temperature-and-heat"
+    },
+    {
+      "id": "invisible-world.heat-and-atoms.changing-state",
+      "type": "lesson",
+      "label": "Melting, boiling and changing state: why ice floats and sweat cools you",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "heat-and-atoms",
+      "summary": "Watch solids melt and liquids boil at the particle level, and discover two strange things about water.",
+      "href": "tracks/invisible-world/08-heat-and-atoms/03-changing-state"
+    },
+    {
       "id": "track.physics",
       "type": "track",
       "label": "physics"
@@ -768,6 +812,51 @@
     {
       "source": "invisible-world.air-and-pressure.pressure-and-weather",
       "target": "sim.air-pressure",
+      "type": "uses-sim"
+    },
+    {
+      "source": "unit.invisible-world.heat-and-atoms",
+      "target": "track.invisible-world",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.heat-and-atoms.jiggling-particles",
+      "target": "unit.invisible-world.heat-and-atoms",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.heat-and-atoms.jiggling-particles",
+      "target": "sim.states-of-matter",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.heat-and-atoms.temperature-and-heat",
+      "target": "unit.invisible-world.heat-and-atoms",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.heat-and-atoms.jiggling-particles",
+      "target": "invisible-world.heat-and-atoms.temperature-and-heat",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.heat-and-atoms.temperature-and-heat",
+      "target": "sim.states-of-matter",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.heat-and-atoms.changing-state",
+      "target": "unit.invisible-world.heat-and-atoms",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.heat-and-atoms.temperature-and-heat",
+      "target": "invisible-world.heat-and-atoms.changing-state",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.heat-and-atoms.changing-state",
+      "target": "sim.states-of-matter",
       "type": "uses-sim"
     },
     {

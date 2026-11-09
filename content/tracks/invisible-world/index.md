@@ -15,7 +15,7 @@ Some of my favourite sessions are about things nobody can see. A magnet pushes w
 | 5 | [Signals through the air](./05-signals-through-the-air/index.md) | how a message rides on a wave: radio, wifi, Bluetooth, GPS; why walls and microwaves matter | 6–8 | Ready |
 | 6 | [Sound you can't hear](./06-sound-you-cant-hear/index.md) | ultrasound and infrasound, bat sonar, whale calls, medical scans | 4–8 | Ready |
 | 7 | [Air and pressure](./07-air-and-pressure/index.md) | the air pushing on everything; straws, suction cups, weather and ears popping | 3–8 | Ready |
-| 8 | Heat and atoms | everything is made of jiggling particles; hot and cold, melting and boiling | 4–8 | Planned |
+| 8 | [Heat and atoms](./08-heat-and-atoms/index.md) | everything is made of jiggling particles; hot and cold, melting and boiling | 4–8 | Ready |
 | 9 | Colour and seeing | why things have colour, mixing light vs mixing paint, how cameras and screens work | 4–8 | Planned |
 | 10 | Radioactivity | unstable atoms, half-life with coins and dice, how it's used and how we stay safe | 7–8 | Planned |
 
