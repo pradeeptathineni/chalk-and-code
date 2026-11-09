@@ -10,6 +10,7 @@ Each sim is a single page with a p5.js sketch. Open one directly, or meet it ins
 | [Motion graphs](./motion-graphs/index.html) | position, velocity and acceleration graphs of one cart | [Where is it?](../tracks/physics/01-motion/01-where-is-it.md), [How fast?](../tracks/physics/01-motion/02-how-fast.md), [Speeding up](../tracks/physics/01-motion/03-speeding-up.md) |
 | [Projectile motion](./projectile-motion/index.html) | independent horizontal and vertical motion, range, air drag | [Projectile motion](../tracks/physics/01-motion/04-projectile-motion.md) |
 | [River crossing](./river-crossing/index.html) | relative velocity as vector addition | [Relative velocity](../tracks/physics/01-motion/05-relative-velocity.md) |
+| [The light spectrum](./light-spectrum/index.html) | every kind of light from radio to gamma rays: wavelength, frequency, uses and safety | [The light we can't see](../tracks/invisible-forces/04-light-we-cant-see/index.md), all four lessons |
 
 ## How a sim is put together
 

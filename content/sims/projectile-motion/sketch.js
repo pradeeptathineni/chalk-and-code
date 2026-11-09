@@ -19,7 +19,7 @@ new p5((p) => {
     stage = document.getElementById("stage");
     p.createCanvas(960, 540).parent(stage);
     SimKit.fit(p, stage, 16 / 9);
-    p.textFont("Helvetica, Arial, sans-serif");
+    p.textFont("Helvetica");
 
     const controls = document.getElementById("controls");
     speed = SimKit.slider(controls, { label: "Launch speed", min: 5, max: 30, step: 0.5, value: 18, unit: "m/s" });

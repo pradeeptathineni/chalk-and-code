@@ -33,6 +33,8 @@ You're welcome to teach with, adapt and share this material:
 |---|---|---|---|
 | [OpenStax College Physics 2e](https://openstax.org/details/books/college-physics-2e) | CC BY 4.0 | reference | Physics: Motion |
 | [PhET Projectile Motion](https://phet.colorado.edu/en/simulations/projectile-motion) | CC BY 4.0 | reference (linked for comparison) | Projectile motion |
+| [OpenStax College Physics 2e, 24.3 The Electromagnetic Spectrum](https://openstax.org/books/college-physics-2e/pages/24-3-the-electromagnetic-spectrum) | CC BY 4.0 | reference | The light we can't see |
+| [NASA Science, Tour of the Electromagnetic Spectrum](https://science.nasa.gov/ems/) | public domain (US government work) | reference | The light we can't see |
 
 ## Tools I teach with
 

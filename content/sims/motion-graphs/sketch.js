@@ -22,7 +22,7 @@ new p5((p) => {
     const c = p.createCanvas(960, 600);
     c.parent(stage);
     SimKit.fit(p, stage, 16 / 10);
-    p.textFont("Helvetica, Arial, sans-serif");
+    p.textFont("Helvetica");
 
     const controls = document.getElementById("controls");
     x0 = SimKit.slider(controls, { label: "Start position x₀", min: -8, max: 8, step: 0.5, value: -6, unit: "m", onChange: reset });

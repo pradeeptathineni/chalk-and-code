@@ -11,9 +11,9 @@ Some of my favourite sessions are about things nobody can see. A magnet pushes w
 | 1 | Pushes without touching | gravity, magnetism and static electricity; what a "field" means | 3–8 | Planned |
 | 2 | Magnets and electricity are the same thing | a wire makes a magnet, a magnet makes a current; electromagnets, motors and speakers | 5–8 | Planned |
 | 3 | Waves | what waves are: wavelength, frequency, speed; water, sound and light | 4–8 | Planned |
-| 4 | The light we can't see | the electromagnetic spectrum from radio to gamma rays; infrared and ultraviolet | 4–8 | Planned |
+| 4 | [The light we can't see](./04-light-we-cant-see/index.md) | the electromagnetic spectrum from radio to gamma rays; infrared and ultraviolet | 4–8 | Ready |
 | 5 | Infrared all around you | remote controls, night vision, heat cameras, the robot's obstacle sensor | 5–8 | Planned |
 | 6 | Radio and wifi | how a message rides on a wave, why walls and microwaves matter, Bluetooth, GPS | 6–8 | Planned |
 | 7 | Colour and seeing | why things have colour, mixing light vs mixing paint, how cameras and screens work | 4–8 | Planned |
 
-**Try this at home:** point a TV remote at your phone's front camera and press a button. You may see a flicker of light that your eyes alone can't see. That's infrared, and Unit 5 explains it.
+**Try this at home:** point a TV remote at your phone's front camera and press a button. You may see a flicker of light that your eyes alone can't see. That's infrared, and Unit 5 explains it. (Lesson 3 of [The light we can't see](./04-light-we-cant-see/03-infrared.md) gives the short version.)

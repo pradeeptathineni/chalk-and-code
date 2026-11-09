@@ -16,7 +16,7 @@ new p5((p) => {
     stage = document.getElementById("stage");
     p.createCanvas(960, 560).parent(stage);
     SimKit.fit(p, stage, 12 / 7);
-    p.textFont("Helvetica, Arial, sans-serif");
+    p.textFont("Helvetica");
 
     const controls = document.getElementById("controls");
     boatSpeed = SimKit.slider(controls, { label: "Boat speed (in still water)", min: 1, max: 8, step: 0.5, value: 4, unit: "m/s", onChange: reset });
