@@ -69,4 +69,4 @@ Teach with it, adapt it, share it.
 | The Chalk & Code name | Not licensed; see [TRADEMARK.md](TRADEMARK.md) |
 | Third-party parts (Quartz in `site/`, p5.js, KaTeX, cited sources) | Their own licences; see [content/credits.md](content/credits.md) |
 
-If you reuse a lesson, credit it as "Based on Chalk & Code by Pradeep Tathineni" with a link, and share your version under CC BY-SA 4.0.
+If you reuse a lesson, credit it as "Based on Chalk & Code by Pradeep Tathineni (neon1)" with a link, keep the [NOTICE](NOTICE) file, and share your version under CC BY-SA 4.0.

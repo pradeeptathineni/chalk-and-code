@@ -4,8 +4,8 @@ The lessons are licensed under CC BY-SA 4.0 and the code under MIT, so you are f
 
 If you publish an adapted version:
 
-- credit the original as "Based on Chalk & Code by Pradeep Tathineni", with a link,
+- credit the original as "Based on Chalk & Code by Pradeep Tathineni (neon1)", with a link, and keep the NOTICE file,
 - give your version its own name, and
-- don't present it as the official Chalk & Code or as endorsed by Pradeep Tathineni.
+- don't present it as the official Chalk & Code or as endorsed by Pradeep Tathineni or neon1.
 
 Questions: open an issue on the repository.

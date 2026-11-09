@@ -9,7 +9,7 @@ The lessons, simulations, diagrams and code here are original work by Pradeep Ta
 
 You're welcome to teach with, adapt and share this material:
 
-- **Lessons, text, diagrams and images:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Credit "Based on Chalk & Code by Pradeep Tathineni" with a link, and share adaptations under the same licence.
+- **Lessons, text, diagrams and images:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Credit "Based on Chalk & Code by Pradeep Tathineni (neon1)" with a link, and share adaptations under the same licence.
 - **Code** (the simulations, topic map and tools): MIT.
 - **The Chalk & Code name** isn't licensed: give adapted versions their own name.
 
