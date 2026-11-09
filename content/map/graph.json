@@ -287,6 +287,50 @@
       "href": "tracks/invisible-world/06-sound-you-cant-hear/03-infrasound"
     },
     {
+      "id": "unit.invisible-world.air-and-pressure",
+      "type": "unit",
+      "label": "air-and-pressure"
+    },
+    {
+      "id": "invisible-world.air-and-pressure.air-pushes",
+      "type": "lesson",
+      "label": "Air is stuff, and it pushes: the ocean of air we live at the bottom of",
+      "level": 1,
+      "levelName": "Nudge",
+      "track": "invisible-world",
+      "unit": "air-and-pressure",
+      "summary": "Discover that air is made of fast-moving particles that push on everything, and how hard that push really is.",
+      "href": "tracks/invisible-world/07-air-and-pressure/01-air-pushes"
+    },
+    {
+      "id": "sim.air-pressure",
+      "type": "sim",
+      "label": "air-pressure",
+      "href": "sims/air-pressure/index.html"
+    },
+    {
+      "id": "invisible-world.air-and-pressure.suck-or-push",
+      "type": "lesson",
+      "label": "Suck or push? Straws, syringes and suction cups",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "air-and-pressure",
+      "summary": "Find out that 'suction' doesn't pull anything: it's the air outside doing the pushing.",
+      "href": "tracks/invisible-world/07-air-and-pressure/02-suck-or-push"
+    },
+    {
+      "id": "invisible-world.air-and-pressure.pressure-and-weather",
+      "type": "lesson",
+      "label": "Pressure, heat and the weather: popping ears, puffy chip bags and storms",
+      "level": 2,
+      "levelName": "Rolling",
+      "track": "invisible-world",
+      "unit": "air-and-pressure",
+      "summary": "See how air pressure changes as you climb, as air heats up, and from place to place, and how that makes ears pop and weather happen.",
+      "href": "tracks/invisible-world/07-air-and-pressure/03-pressure-and-weather"
+    },
+    {
       "id": "track.physics",
       "type": "track",
       "label": "physics"
@@ -679,6 +723,51 @@
     {
       "source": "invisible-world.sound-you-cant-hear.infrasound",
       "target": "sim.hearing-range",
+      "type": "uses-sim"
+    },
+    {
+      "source": "unit.invisible-world.air-and-pressure",
+      "target": "track.invisible-world",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.air-and-pressure.air-pushes",
+      "target": "unit.invisible-world.air-and-pressure",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.air-and-pressure.air-pushes",
+      "target": "sim.air-pressure",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.air-and-pressure.suck-or-push",
+      "target": "unit.invisible-world.air-and-pressure",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.air-and-pressure.air-pushes",
+      "target": "invisible-world.air-and-pressure.suck-or-push",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.air-and-pressure.suck-or-push",
+      "target": "sim.air-pressure",
+      "type": "uses-sim"
+    },
+    {
+      "source": "invisible-world.air-and-pressure.pressure-and-weather",
+      "target": "unit.invisible-world.air-and-pressure",
+      "type": "part-of"
+    },
+    {
+      "source": "invisible-world.air-and-pressure.suck-or-push",
+      "target": "invisible-world.air-and-pressure.pressure-and-weather",
+      "type": "prerequisite"
+    },
+    {
+      "source": "invisible-world.air-and-pressure.pressure-and-weather",
+      "target": "sim.air-pressure",
       "type": "uses-sim"
     },
     {

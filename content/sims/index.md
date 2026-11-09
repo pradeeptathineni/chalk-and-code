@@ -17,6 +17,7 @@ Each sim is a single page with a p5.js sketch. Open one directly, or meet it ins
 | [A message on a wave](./signal-on-a-wave/index.html) | carrying bits on a wave: on-off, AM, FM, and noise | [Signals through the air](../tracks/invisible-world/05-signals-through-the-air/index.md) |
 | [GPS](./gps/index.html) | finding a position from signal timing | [GPS](../tracks/invisible-world/05-signals-through-the-air/03-gps.md) |
 | [Who can hear it?](./hearing-range/index.html) | pitch, hearing ranges, infrasound and ultrasound, with sound | [Sound you can't hear](../tracks/invisible-world/06-sound-you-cant-hear/index.md) |
+| [Air pressure](./air-pressure/index.html) | air as moving particles; pressure from amount, space and temperature | [Air and pressure](../tracks/invisible-world/07-air-and-pressure/index.md) |
 
 ## How a sim is put together
 

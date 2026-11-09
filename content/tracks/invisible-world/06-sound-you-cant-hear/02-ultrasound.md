@@ -25,7 +25,7 @@ A bat flies through a pitch-black cave, swerves around rocks and snatches a moth
 
 "Bats are blind, so they just fly around and hope."
 
-Bats can see, but at night they rely on something better: **echolocation**. They shout, then listen for the echo. Their shouts are ultrasound, far too high for us to hear, and some are as loud as a smoke alarm. Good thing we can't hear them!
+Bats can see, but at night they rely on something better: **echolocation**. They shout, then listen for the echo. Their shouts are ultrasound, far too high for us to hear, and some are louder than a smoke alarm. Good thing we can't hear them!
 
 ## The idea
 
