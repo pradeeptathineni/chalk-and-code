@@ -13,7 +13,7 @@ Some of my favourite sessions are about things nobody can see. A magnet pushes w
 | 3 | [Waves](./03-waves/index.md) | what waves are: wavelength, frequency, speed; water, sound and light | 4–8 | Ready |
 | 4 | [The light we can't see](./04-light-we-cant-see/index.md) | the electromagnetic spectrum from radio to gamma rays; infrared and ultraviolet | 4–8 | Ready |
 | 5 | [Signals through the air](./05-signals-through-the-air/index.md) | how a message rides on a wave: radio, wifi, Bluetooth, GPS; why walls and microwaves matter | 6–8 | Ready |
-| 6 | Sound you can't hear | ultrasound and infrasound, bat sonar, whale calls, medical scans | 4–8 | Planned |
+| 6 | [Sound you can't hear](./06-sound-you-cant-hear/index.md) | ultrasound and infrasound, bat sonar, whale calls, medical scans | 4–8 | Ready |
 | 7 | Air and pressure | the air pushing on everything; straws, suction cups, weather and ears popping | 3–8 | Planned |
 | 8 | Heat and atoms | everything is made of jiggling particles; hot and cold, melting and boiling | 4–8 | Planned |
 | 9 | Colour and seeing | why things have colour, mixing light vs mixing paint, how cameras and screens work | 4–8 | Planned |
