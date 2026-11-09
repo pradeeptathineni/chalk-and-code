@@ -3,7 +3,9 @@ title: "Chalk & Code"
 summary: "Lessons from years of tutoring and teaching: explained on the board, then brought to life in code."
 ---
 
-Every subject here is taught the way I teach in person: a question first, then an explanation on the board, and then a small program you can play with until the idea clicks. Since 2018 I have tutored, taught, mentored and run seminars in physics, math, computer science and security. This is where those lessons live now.
+Every subject here is taught the way I teach in person: a question first, then an explanation on the board, and then a small program you can play with until the idea clicks.
+
+Since 2018 I have tutored and taught grade school and middle school students in math, coding, logic, robotics and physics, and run sessions on the invisible side of the world: magnetism, radio, wifi and light we can't see. Students start with blocks in Blockly and Scratch and grow into Python, build logic circuits in Logisim, drive a real robot with code, and watch physics happen in p5.js simulations. This is where those lessons live now.
 
 ## Where to start
 
@@ -13,13 +15,19 @@ Every subject here is taught the way I teach in person: a question first, then a
 
 ## Tracks
 
-| Track | What's inside | Status |
-|---|---|---|
-| [Physics](./tracks/physics/index.md) | Motion, forces, energy, waves, fields, all with simulations | Motion unit ready |
-| [Math](./tracks/math/index.md) | Functions, trigonometry, vectors, calculus, probability | Outline |
-| [Computer science](./tracks/computer-science/index.md) | Programming by making things move, algorithms, CS without a computer | Outline |
-| [Security](./tracks/security/index.md) | Everyday security, taught for people rather than for IT departments | Outline |
-| [Study skills](./tracks/study-skills/index.md) | How to learn, practise and remember | Outline |
+| Track | What's inside | Grades | Status |
+|---|---|---|---|
+| [Math](./tracks/math/index.md) | Number sense, fractions, ratios, equations, geometry, graphs | K–8 | Outline |
+| [Coding](./tracks/coding/index.md) | Blockly, then Scratch, then Python, then making things move | K–8 | Outline |
+| [Robots](./tracks/robots/index.md) | Python that drives a real robot: motors, sounds, sensors, camera | 5–8 | Outline |
+| [Logic and circuits](./tracks/logic-and-circuits/index.md) | True and false, logic gates, Logisim, binary, transistors | 4–8 | Outline |
+| [Physics](./tracks/physics/index.md) | Motion, forces, energy, waves, gravity, with p5.js simulations | 3–8 and up | Motion unit ready |
+| [Invisible forces](./tracks/invisible-forces/index.md) | Magnets, electromagnetism, waves, infrared, radio and wifi | 3–8 | Outline |
+| [Electricity and electronics](./tracks/electricity/index.md) | Circuits, batteries, LEDs, resistors, transistors, real gadgets | 3–8 | Outline |
+| [Security](./tracks/security/index.md) | Everyday security, taught for people rather than for IT departments | 5–8 and up | Outline |
+| [Study skills](./tracks/study-skills/index.md) | How to learn, practise and remember | All | Outline |
+
+The tracks connect: a loop in **Coding** drives the **Robot**, the robot's sensor uses **infrared light**, a light switch becomes a **logic gate**, and a logic gate is a handful of **transistors**.
 
 ## How every lesson works
 

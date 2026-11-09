@@ -6,6 +6,8 @@ tags: [physics, kinematics]
 
 Kinematics is the language of motion: where something is, how fast it is going, and how that is changing. No forces yet. That comes in Unit 2.
 
+**Who it's for:** lessons 1 and 2 work from about grade 6, with the sim doing most of the explaining. Lessons 3 to 5 stretch into high school, and are a good challenge for a middle schooler who is ready for more.
+
 | # | Lesson | Level | Sim |
 |---|---|---|---|
 | 1 | [Where is it? Position, distance and displacement](./01-where-is-it.md) | 1 | motion graphs |

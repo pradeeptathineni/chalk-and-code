@@ -5,7 +5,7 @@
 //   node tools/build-indexes.mjs --check  check only (exit 1 on any problem)
 //
 // A lesson is any Markdown file under content/tracks/ whose front matter has an `id`.
-// Graph format (shared with the Neon1 repo): {nodes:[{id,type,label}], edges:[{source,target,type}]}
+// Graph format (shared with Ready, Secure, Go): {nodes:[{id,type,label}], edges:[{source,target,type}]}
 
 import { readFileSync, writeFileSync, readdirSync, statSync, existsSync, mkdirSync } from "node:fs"
 import { join, relative, dirname } from "node:path"

@@ -2,7 +2,7 @@
 
 Lessons from years of tutoring and teaching, explained on the board and then brought to life in code.
 
-Since 2018 I have tutored, taught, mentored and run seminars in physics, math, computer science and security. My favourite way to teach physics has always been to write a small program with the student, then change one number and watch what happens. This repository collects those lessons and the simulations that go with them.
+Since 2018 I have tutored and taught grade school and middle school students in math, coding (Blockly, Scratch and Python), logic and circuits (Logisim), robotics (Python on a Scribbler robot) and physics, including the invisible side of the world: electromagnetism, radio, wifi and infrared. My favourite way to teach physics has always been to write a small p5.js program with the student, then change one number and watch what happens. This repository collects those lessons and the simulations that go with them.
 
 ## What's here
 
@@ -11,7 +11,8 @@ chalk-and-code/
 ├── content/                  everything a learner reads (built into the site)
 │   ├── index.md              home page
 │   ├── map/                  clickable map of lessons and prerequisites
-│   ├── tracks/               physics, math, computer science, security, study skills
+│   ├── tracks/               math, coding, robots, logic and circuits, physics,
+│   │                         invisible forces, electricity, security, study skills
 │   │   └── physics/01-motion/   five lessons, each with a simulation
 │   ├── sims/                 p5.js simulations, each runnable on its own
 │   ├── for-tutors/           how a session runs

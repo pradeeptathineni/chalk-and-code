@@ -34,6 +34,18 @@ You're welcome to teach with, adapt and share this material:
 | [OpenStax College Physics 2e](https://openstax.org/details/books/college-physics-2e) | CC BY 4.0 | reference | Physics: Motion |
 | [PhET Projectile Motion](https://phet.colorado.edu/en/simulations/projectile-motion) | CC BY 4.0 | reference (linked for comparison) | Projectile motion |
 
+## Tools I teach with
+
+These are the tools students use in the lessons. They are linked, not copied into this site.
+
+| Tool | Licence | Where |
+|---|---|---|
+| [Blockly](https://developers.google.com/blockly) | Apache-2.0 | Coding |
+| [Scratch](https://scratch.mit.edu) | free to use; see its terms | Coding |
+| [Python](https://www.python.org) | PSF License | Coding, Robots |
+| [Logisim-evolution](https://github.com/logisim-evolution/logisim-evolution) | GPL-3.0 | Logic and circuits |
+| Scribbler robot and the Myro Python library, from the [Institute for Personal Robots in Education](http://www.roboteducation.org) (Georgia Tech and Bryn Mawr College) | reference only | Robots |
+
 ## Ideas and inspiration
 
 These shaped how the site teaches, without any of their material being copied:

@@ -4,7 +4,7 @@ summary: "Everyday security taught to people: students, parents, teachers and an
 tags: [security]
 ---
 
-These are the security lessons and workshops I teach, written for learners rather than for IT departments. For checklists, readiness levels and organisation-wide guidance, the companion Neon1 security resource goes deeper.
+These are the security lessons and workshops I teach, written for learners rather than for IT departments. For checklists, readiness levels and organisation-wide guidance, the companion [Ready, Secure, Go](https://github.com/neon1llc/ready-secure-go) resource from neon1 goes deeper.
 
 | # | Unit | What it covers | Status |
 |---|---|---|---|

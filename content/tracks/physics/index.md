@@ -1,22 +1,22 @@
 ---
 title: "Physics"
-summary: "How things move and why, with a simulation for every idea."
+summary: "How things move and why, shown with p5.js simulations you can change and watch."
 tags: [physics]
 ---
 
-Physics is the subject where code helps most. An equation tells you what happens. A simulation lets you change one number and **watch** what happens, and that is usually the moment it makes sense.
+I teach physics to grade school and middle school students with p5.js: we write a small program together, change one number, and **watch** what happens. That is usually the moment an idea makes sense. An equation tells you what happens; a simulation shows you.
+
+Electricity, magnetism, light and radio have their own tracks: [Invisible forces](../invisible-forces/index.md) and [Electricity and electronics](../electricity/index.md).
 
 ## Units
 
-| # | Unit | Lessons | Sims | Status |
-|---|---|---|---|---|
-| 1 | [Motion](./01-motion/index.md) | position, velocity, acceleration, projectiles, relative velocity | motion graphs, projectile motion, river crossing | Ready |
-| 2 | Forces | Newton's laws, free-body diagrams, friction, inclines, tension | free-body builder, incline | Planned |
-| 3 | Energy and momentum | work, kinetic and potential energy, conservation, collisions | roller coaster energy bars, 1D collisions | Planned |
-| 4 | Circular motion and gravity | centripetal force, orbits, Kepler's laws | orbit sandbox (three.js) | Planned |
-| 5 | Oscillations and waves | springs, pendulums, waves, sound, interference | spring–mass, pendulum, two-source interference | Planned |
-| 6 | Electricity and magnetism | charge, fields, potential, circuits | field lines, circuit builder (embedded) | Planned |
-| 7 | Modern physics | light as a wave and a particle, atoms, relativity basics | double slit | Planned |
+| # | Unit | Lessons | Sims | Grades | Status |
+|---|---|---|---|---|---|
+| 1 | [Motion](./01-motion/index.md) | position, velocity, acceleration, projectiles, relative velocity | motion graphs, projectile motion, river crossing | 6–8 and up | Ready |
+| 2 | Pushes and pulls | forces, balanced and unbalanced, friction, Newton's laws | free-body builder, ramp | 4–8 | Planned |
+| 3 | Energy | kinds of energy, energy changing form, roller coasters, simple machines | roller coaster energy bars, levers | 4–8 | Planned |
+| 4 | Waves and sound | vibrations, pitch and loudness, echoes | wave machine, slinky | 4–8 | Planned |
+| 5 | Space and gravity | why things fall, orbits, the Moon and seasons | orbit sandbox | 3–8 | Planned |
 
 ## How the sims are built
 

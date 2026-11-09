@@ -43,9 +43,13 @@
       const TRACK_COLORS = {
         physics: "#8fc9f2",
         math: "#9fe0a8",
-        "computer-science": "#f2b25c",
+        coding: "#f2b25c",
+        robots: "#f2d35c",
+        "logic-and-circuits": "#7fd6cf",
+        "invisible-forces": "#b8a3f2",
+        electricity: "#f2cf8f",
         security: "#f29fb5",
-        "study-skills": "#c9b3f2",
+        "study-skills": "#d9d4c4",
       }
       const LEVEL_NAMES = ["At rest", "Nudge", "Rolling", "Accelerating", "Orbit"]
       const CARD_W = 230
@@ -185,7 +189,7 @@
             buttons.push(b)
           }
         }
-        chips("tracks", "track", [...new Set(lessons.map((l) => l.track))].sort(), (v) => v.replace("-", " "))
+        chips("tracks", "track", [...new Set(lessons.map((l) => l.track))].sort(), (v) => v.replaceAll("-", " "))
         chips("levels", "level", [...new Set(lessons.map((l) => l.level))].sort(), (v) => `${v} ${LEVEL_NAMES[v]}`)
       }
 

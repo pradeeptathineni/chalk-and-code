@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "chalk-and-code/lesson.schema.json",
   "title": "Lesson front matter",
-  "description": "Front matter for one lesson. The first six keys and sources are shared with the Neon1 practice-card schema; track, unit, prerequisites and sims are specific to lessons.",
+  "description": "Front matter for one lesson. The first six keys and sources are shared with the Ready, Secure, Go practice-card schema; track, unit, prerequisites and sims are specific to lessons.",
   "type": "object",
   "required": ["id", "title", "summary", "level", "tags", "track", "unit", "prerequisites", "sims", "sources"],
   "properties": {
